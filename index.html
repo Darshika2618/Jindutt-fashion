@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jindutt Fashion</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1520975916090-3105956dac38') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #444;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">JINDUTT</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+<div class="hero-text">
+<h1>New Collection 2026</h1>
+<p>Premium Fashion for Modern Style</p>
+</div>
+</div>
+
+<!-- PRODUCTS -->
+<div class="products">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2">
+<h3>Saree Collection</h3>
+<p>₹999</p>
+<a href="https://wa.me/917648011716?text=I%20want%20to%20buy%20Saree%20Collection"><button>Buy Now</button></a>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1618354691438-25bc04584c23">
+<h3>Kurti Set</h3>
+<p>₹799</p>
+<a href="https://wa.me/917648011716?text=I%20want%20to%20buy%20Kurti%20Set"><button>Buy Now</button></a>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1520975916090-3105956dac38">
+<h3>Designer Dress</h3>
+<p>₹1499</p>
+<a href="https://wa.me/917648011716?text=I%20want%20to%20buy%20Designer%20Dress"><button>Buy Now</button></a>
+</div>
+
+</div>
+
+<footer>
+© 2026 Jindutt Fashion | Premium Store
+</footer>
+
+</body>
+</html>
